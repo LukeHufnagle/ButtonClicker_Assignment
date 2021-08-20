@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClicker</title>
+    <link rel="stylesheet" href="ButtonClicker_Style.css">
+</head>
+<body>
+    <div id="navBar">
+        <div class="navBarContent">
+            <h1 class="title">Dojonary</h1>
+            <input class="searchBar" type="text" name="searchbar" placeholder="Search">
+            <button class="loginButton" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div id="content">
+        <div id="leftSide">
+            <div class="topNinjaCard">
+                <div class="topNinjaCardContent">
+                    <div class="leftNinjaContent">
+                        <h1>ninja</h1>
+                        <h4>noun</h4>
+                        <h3>Plural: ninjas</h3>
+                        <button class="likeButton" onclick="alert('ninja was liked')">13 likes</button>
+                    </div>
+                <div class="rightNinjaContent">
+                    <h4>A practitioner skilled in the <span><a href="#">Japanese</a></span> art of <span><a href="#">ninjutsu</a></span></h4>
+                </div>
+                </div>
+            </div>
+            <div class="bottomNinjaCard">
+                <div class="bottomNinjaCardContent">
+                    <div class="leftBottomNinjaContent">
+                        <h1>ninja</h1>
+                        <h4>noun</h4>
+                        <h3>Plural: ninjas</h3>
+                        <button class="likeButton2" onclick="alert('ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="rightBottomNinjaContent">
+                        <h4>A <span><a href="#">programmer</a></span> who breaks down problems with <span><a href="#">zen</a></span>-like focus</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rightSide">
+            <div class="defCard">
+                <div class="defCardContent">
+                    <h1>Dojonary is defined by <strong>YOU</strong></h1>
+                    <button class="definitionButton" onclick="remove(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="ButtonClicker_Script.js"></script>
+</body>
+</html>

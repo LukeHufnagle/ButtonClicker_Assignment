@@ -1,0 +1,124 @@
+*{
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+#navBar{
+    background-color: #cccccc;
+    height: 80px;
+    width: 870px;
+    border-radius: 2px;
+}
+
+.navBarContent{
+    width: 870px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBar{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.loginButton{
+    width: 70px;
+    background-color: #2b78e4;
+    color: white;
+    box-shadow: 2px 2px black;
+    border-radius: 2px;
+}
+
+#content{
+    width: 900px;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#leftSide{
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#rightSide{
+    margin-top: 40px;
+    background-color: white;
+    height: 250px;
+    width: 275px;
+}
+
+.topNinjaCard{
+    width: 490px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 2px;
+    position: absolute;
+}
+
+.topNinjaCardContent, .bottomNinjaCardContent{
+    width: 490px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftNinjaContent h4, h3{
+    margin: 10px 0px;
+}
+
+.leftBottomNinjaContent h4, h3{
+    margin: 10px 0px;
+}
+
+.rightNinjaContent, .rightBottomNinjaContent{
+    width: 220px;
+}
+
+
+
+.likeButton, .likeButton2{
+    width: 70px;
+    background-color: #ffd966;
+    color: black;
+    box-shadow: 2px 2px black;
+    border-radius: 2px;
+}
+
+.bottomNinjaCard{
+    width: 490px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 2px;
+    position: relative;
+    top: 230px;
+}
+
+.defCard{
+    width: 275px;
+    height: 160px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.definitionButton{
+    width: 270px;
+    height: 40px;
+    background-color: #93c47d;
+    color: black;
+    box-shadow: 2px 2px black;
+    border-radius: 2px;
+    position: relative;
+    top: 15px;
+    left: 1px;
+}
